@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial;
+   
+    color: 624E88;
+    background-color:8967B3;
+    padding: 20px;
+}
+
+#product {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #440404;
+
+
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    #product {
+        padding: 15px;
+    }
+
+    #product h2 {
+        font-size: 1.5rem;
+    }
+
+    #product p {
+        font-size: 0.9rem;
+    }
+}
